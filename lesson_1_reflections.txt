@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+    diif tells what line is removed and what is added in a section, so you know that the line has some changes which might lead to bugs.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+    You can see and remember what might be a mistake from the past and won't do it again in the future. Also you can compare versions of your file if a mistake happens to find out what causes the mistake.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+    pros of manually: You know exactly what you commit, and it will be faster when you want to compare versions of your files.
+    cons of manually: Might forget to commit.
+    pros of auto: It makes sure you will have all versions of your files. 
+    cons of auto: Might have too many versions of files, making it hard when choosing what versions to be compared. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+    Because those files like Google Docs don't need other files in order to be excuteable.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+    Use git log to see a list of recent commits. Use git diff to see different between two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+    It keeps old versions of your files so you can revert to an old version of your files when a bug was introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+    I want to use git for projects I download from the Internet.
