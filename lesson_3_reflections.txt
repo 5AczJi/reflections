@@ -9,3 +9,7 @@ Because allowing git to pull changes automatically could result in the presence 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Branche is a concept that involves only 1 repository. Clone is to make another repository out of an existing repository. Fork is a github concept that clones an exsiting repository within GitHub servers. The new(fork) repository also resides in GitHub servers. Use branch when have a permission to make changes on the repository otherwise use fork or clone.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+When the next pull occurs, git knows where to put new changes from the server onto the local machine instead of having to track from the start to search for the first commit that makes these two(local and remote) branches differ.
