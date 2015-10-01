@@ -13,3 +13,7 @@ Branche is a concept that involves only 1 repository. Clone is to make another r
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 When the next pull occurs, git knows where to put new changes from the server onto the local machine instead of having to track from the start to search for the first commit that makes these two(local and remote) branches differ.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would store all the files of a project in a server and allow everyone to access that server. This way no one has to bother with git commands, but it comes at a cost such as having no backup.
