@@ -17,3 +17,8 @@ When the next pull occurs, git knows where to put new changes from the server on
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 I would store all the files of a project in a server and allow everyone to access that server. This way no one has to bother with git commands, but it comes at a cost such as having no backup.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When I want to develop a new feature in a collaborative project I would make a new branch and then merge it into the master when it's finished. Doing so makes sure that no one would pull an in-development code that might contain bugs into their code. The master branch remains intact.
+But If I were to develop the new feature right in the master branch, I wouldn't have to switch between branches many times which might reduce some accidental mistakes. Only the master branch I have to maintain.
